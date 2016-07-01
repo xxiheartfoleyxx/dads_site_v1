@@ -24,6 +24,15 @@ nav {
   text-align: center;
 }
 
+.hero_image {
+  background-image: url("images/lawyer.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 50%;
+  background-position: top;
+  background-size: cover;
+}
+
 ul {
   margin: 0;
   /*margin-right: 25px;*/
@@ -94,7 +103,7 @@ h3 {
 
 
 .attorney {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   border-top: 1px solid grey;
 }
