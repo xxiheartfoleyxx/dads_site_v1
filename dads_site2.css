@@ -24,13 +24,39 @@ nav {
   text-align: center;
 }
 
-.hero_image {
+/*.hero_image {
   background-image: url("images/lawyer.jpg");
   background-repeat: no-repeat;
   width: 100%;
-  padding-top: 50%;
-  background-position: top;
+  /*padding-top: 50%;*/
+  /*background-position: top;
   background-size: cover;
+}*/
+
+  main {
+    background-image: url("images/lawyer.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 42%;
+    color: white;
+}
+
+.main h1 {
+ font-family: 'Noto Sans', sans-serif;
+ font-size: 4em;
+ text-align: center;
+ /*margin: -4%;*/
+ font-style: normal;
+ color: white;
+ text-shadow: 2px 2px black;
+}
+
+h1 {
+    text-align: center;
+    border: 5px solid #ffffff;
+    width: 25%;
+    margin-left: 37%;
 }
 
 ul {
@@ -48,6 +74,18 @@ a {
   display: inline-block;
   position: relative;
 }
+
+a.contact {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+a.contact:hover {
+    color: #B70A3D;
+}
+
 li a {
   color: #000;
   text-transform: uppercase;
@@ -80,10 +118,12 @@ img.lawyer {
   height: 100%;
   /*border: 10px solid #353996;*/
   margin-top: 4em;
+  border-radius: 50%;
 }
 
 .profile{
   display: inline-flex;
+  background-color: #DACFBA;
 }
 
 .bio {
@@ -106,6 +146,10 @@ h3 {
   font-size: 15px;
   text-align: center;
   border-top: 1px solid grey;
+  padding-top: 2%;
+  background-color: grey;
+  padding-bottom: 4%;
+  font-weight: 900;
 }
 
 img.icons {
@@ -119,4 +163,12 @@ img.icons {
 
 .Practice {
     box-shadow: 0 2px 6px #000;
+    /*background-color: #B70A3D;
+    color: #E5D4CC;*/
+}
+
+.about {
+    background-color: #B70A3D;
+    color: antiquewhite;
+    padding-bottom: 1%;
 }
