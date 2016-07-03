@@ -33,7 +33,7 @@ nav {
   background-size: cover;
 }*/
 
-  main {
+main {
     background-image: url("images/lawyer.jpg");
     background-position: top;
     background-repeat: no-repeat;
@@ -86,16 +86,22 @@ a.contact:hover {
     color: #B70A3D;
 }
 
-li a {
+a.contact:visited {
+  color: white;
+}
+
+li.nav a {
   color: #000;
   text-transform: uppercase;
 }
+
 li {
   display: inline-block;
   margin-left: 25px;
   transition: .5s linear;
 }
-li a:after {
+
+li.nav a:after {
   content: "";
   width: 0;
   height: 2px;
@@ -121,7 +127,7 @@ img.lawyer {
   border-radius: 50%;
 }
 
-.profile{
+.profile {
   display: inline-flex;
   background-color: #DACFBA;
 }
@@ -141,6 +147,9 @@ h3 {
   padding-left: 50px;
 }
 
+h4 {
+  padding-left: 50px;
+}
 
 .attorney {
   font-size: 15px;
@@ -171,4 +180,169 @@ img.icons {
     background-color: #B70A3D;
     color: antiquewhite;
     padding-bottom: 1%;
+}
+
+img.banner {
+    width: 100%;
+}
+
+li.bullets {
+    display: list-item;
+    margin-left: 10%;
+}
+
+li.documents {
+    margin-left: 10%;
+    display:list-item;
+
+}
+
+.Contact {
+    position: fixed;
+    font-family: 'Noto Sans', sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.Contact:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.Contact > div {
+    width: 460px;
+    position: relative;
+    margin: 12% auto;
+    padding: 5px 20px 1px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+
+a.close {
+    font-size: 20px;
+    bottom: 92%;
+}
+
+img.phone {
+    height: 50px;
+    display: inherit;
+}
+
+.call_me {
+    display: -webkit-box;
+    margin-left: 10%;
+    margin-top: 13%;
+}
+
+a.call {
+    margin: 10px;
+}
+
+img.mail {
+    height: 50px;
+    display: inherit;
+}
+
+.email_me {
+    display: -webkit-box;
+    margin-left: 10%;
+}
+
+a.mailto {
+    margin: 10px;
+}
+
+
+a.docs {
+    color: #B70A3D;
+}
+
+/*.gavel {
+  float: right;
+
+}*/
+
+img.gavel {
+    margin-top: 36%;
+}
+
+img.image2 {
+    width: 75%;
+    border-radius: 50%;
+    float: right;
+    margin-top: 44%;
+    margin-right: 4%;
+}
+.flex-container {
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  padding-bottom: 0%;
+  justify-content: space-between;
+}
+.parent {
+  margin: 0;
+  padding-top: 0;
+  /*width: 30%;*/
+
+}
+
+.child {
+    width: 30%;
+}
+.definition {
+  box-shadow: 0 2px 6px #000;
+}
+
+.definition {
+    box-shadow: 0 2px 6px #000;
+    background: #B70A3D;
+    color: antiquewhite;
+}
+
+.minor {
+    background: #f4f4f4;
+}
+
+p.define {
+    padding-right: 1%;
+}
+
+.guard {
+    box-shadow: 0 2px 6px #000;
+    background: #B70A3D;
+    color: antiquewhite;
+    padding-top: 1%;
+    margin-top: -4px;
 }
