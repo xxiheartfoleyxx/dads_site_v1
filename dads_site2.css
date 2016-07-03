@@ -355,7 +355,7 @@ img.pledge {
 
 .need {
     background-color: #F5F5E9;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
 }
 
 img.adv {
@@ -371,6 +371,7 @@ img.adv {
 img.paper {
     width: 117%;
     margin-top: 21%;
+    box-shadow: 0 2px 6px #000;
 }
 
 .process {
