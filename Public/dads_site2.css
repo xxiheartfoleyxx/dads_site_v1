@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
+
 }
 
 nav {
@@ -79,7 +80,7 @@ a {
     text-decoration: none;
     display: inline-block;
     position: relative;
-    color: red;
+    color: white;
 }
 
 a:hover {
@@ -196,6 +197,57 @@ li.documents {
     margin-left: 10%;
     display:list-item;
 
+}
+
+.fun {
+  /*outline: 1px solid red;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  width: 50%;
+  text-align: center;
+  left: 300px;
+  top: 90px;
+}
+
+.stuff {
+  font-size: 40px;
+  text-shadow: 1px 1px 1px black;
+}
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    bottom: 5px;
+    color: #FFFFFF;
+    border: 0;
+    background: none;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.slick-prev:after {
+	  content: "\f104";
+    font: 20px/1 'FontAwesome';
+}
+
+.slick-next {
+    right: 20px;
+    text-align: right;
+}
+
+.slick-next:after {
+	   content: "\f105";
+     font: 20px/1 'FontAwesome';
+}
+
+.slick-prev:hover:after,
+.slick-next:hover:after {
+    color: #7e7e7e;
 }
 
 /*.Contact {
@@ -819,7 +871,7 @@ span.footer {
 
    aside#sidebar {
     margin-right: -12%;
-    margin-top: -14%;
+    margin-top: -19%;
     text-align: right;
 }
 
